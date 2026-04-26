@@ -64,6 +64,11 @@ public class Assignment1 {
 		String location = "37.7749, -122.4194";
 		System.out.println(location);
 		
+		
+		float latitude = 37.7749f;
+		float longitude = -122.4194f;
+		System.out.printf("%f,%f",latitude,longitude);
+		
 		// 7. Person's marital status: true or false
 		boolean maritalstatus = true;
 		System.out.println(maritalstatus);
@@ -83,6 +88,9 @@ public class Assignment1 {
 		// 11.Number of followers on a social media platform: 1,000,000
 		String socialfollowers = "1,000,000";
 		System.out.println(socialfollowers);
+		
+		int sf = 100000;
+		System.out.format("%,d %n",sf);
 		
 		// 12.Rating of a movie: 7.5
 		float movierating = 7.5f;
