@@ -38,7 +38,7 @@ public class Assignment1 {
 
 		// 	1. Temperature of a city in degrees Celsius: 25.5
 		
-		double tempcitycelsius = 25.5;
+		float tempcitycelsius = 25.5f;
 		System.out.println(tempcitycelsius);
 		
 		// 2. Whether a customer has placed an order: true or false
@@ -52,7 +52,7 @@ public class Assignment1 {
 		System.out.println(phonenumber);
 		
 		// 	4. Amount of money in a customer's bank account: 1000.50
-		double bankmoney = 1000.50;
+		float bankmoney = 1000.50f;
 		System.out.println(bankmoney);
 		
 		// 5. Person's email address: "john.doe@example.com"
@@ -87,7 +87,7 @@ public class Assignment1 {
 		System.out.println(socialfollowers);
 		
 		// 12.Rating of a movie: 7.5
-		double movierating = 7.5;
+		float movierating = 7.5f;
 		System.out.println(movierating);
 		
 		// 13.Person's blood type: 'A'
@@ -119,7 +119,7 @@ public class Assignment1 {
 		System.out.println(birthplace);
 		
 		// 20.Distance between two cities: 200.5
-		double distance = 200.5;
+		float distance = 200.5f;
 		System.out.println(distance);
 		
 		
