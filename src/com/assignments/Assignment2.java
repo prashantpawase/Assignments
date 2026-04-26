@@ -24,7 +24,7 @@ public class Assignment2 {
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		
+	System.out.println("Array Assignment");	
 		
 		String[][][] Annual = {
 				{
@@ -65,10 +65,11 @@ public class Assignment2 {
 			
 			*/
 
-		
+		System.out.println(Annual.length);
 		System.out.println("Print Semester 3 - Subject 4 Name. = "+ Annual[2][0][4]);	
 		System.out.println("Print Semester 3 - Subject 5 Name. = "+ Annual[2][0][5]);
 		
+		System.out.println(Annual[2][0][4]+" And " +Annual[2][0][5]);
 	/*	From the array:
 			o Print Semester 5 - Subject 3 and Subject 6 marks
 			
