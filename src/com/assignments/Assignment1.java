@@ -60,11 +60,9 @@ public class Assignment1 {
 		System.out.println(email);
 
 		// 	6. Coordinates of a location (latitude, longitude): 37.7749, -122.4194
-		;
-		double latitude = 37.749;
-		double longitude = -122.4194;
-		System.out.println(latitude);
-		System.out.println(longitude);
+		
+		String location = "37.7749, -122.4194";
+		System.out.println(location);
 		
 		// 7. Person's marital status: true or false
 		boolean maritalstatus = true;
@@ -83,7 +81,7 @@ public class Assignment1 {
 		System.out.println(year);
 		
 		// 11.Number of followers on a social media platform: 1,000,000
-		int socialfollowers = 1000000;
+		String socialfollowers = "1,000,000";
 		System.out.println(socialfollowers);
 		
 		// 12.Rating of a movie: 7.5
@@ -99,7 +97,7 @@ public class Assignment1 {
 		System.out.println(booktitle);
 		
 		// 15.Number of employees in a company: 500
-		int employeenumber = 500;
+		short employeenumber = 500;
 		System.out.println(employeenumber);
 		
 		// 16.Time of an event: 2:30 PM
